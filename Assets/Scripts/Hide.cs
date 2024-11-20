@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class HideObject : MonoBehaviour
 {
-    // Tracks the visibility state of the object
+    // tracks the visibility state of the object
     private bool isObjectShown = true;
     private Vector3 camera_position; // The camera position
     private Vector3 original_position; // Object original position

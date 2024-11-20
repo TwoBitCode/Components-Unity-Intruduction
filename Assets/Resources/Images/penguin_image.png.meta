@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 69022ede33b027347afb1b9f8c621a4b
+guid: 570a1603488e24c09844353b0e92f7ae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8635910854359764492
-    second: DALL_E_2024-11-18_19.32.42_-_A_cool__modernized_version_of_the_Flappy_Bird_avatar_redesigned_as_a_black_and_white_penguin._The_penguin_has_a_sleek_and_edgy_look__with_a_rounded_bo-removebg-preview_0
+      213: 15392670284535782
+    second: penguin_image_0
   - first:
-      213: -1698423097677507053
-    second: DALL_E_2024-11-18_19.32.42_-_A_cool__modernized_version_of_the_Flappy_Bird_avatar_redesigned_as_a_black_and_white_penguin._The_penguin_has_a_sleek_and_edgy_look__with_a_rounded_bo-removebg-preview_1
+      213: -8134784512907173918
+    second: penguin_image_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,33 +100,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -142,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DALL_E_2024-11-18_19.32.42_-_A_cool__modernized_version_of_the_Flappy_Bird_avatar_redesigned_as_a_black_and_white_penguin._The_penguin_has_a_sleek_and_edgy_look__with_a_rounded_bo-removebg-preview_0
+      name: penguin_image_0
       rect:
         serializedVersion: 2
         x: 4
@@ -157,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f132fd35d4172880800000000000000
-      internalID: -8635910854359764492
+      spriteID: 6e754745d8fa63000800000000000000
+      internalID: 15392670284535782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DALL_E_2024-11-18_19.32.42_-_A_cool__modernized_version_of_the_Flappy_Bird_avatar_redesigned_as_a_black_and_white_penguin._The_penguin_has_a_sleek_and_edgy_look__with_a_rounded_bo-removebg-preview_1
+      name: penguin_image_1
       rect:
         serializedVersion: 2
         x: 142
@@ -179,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3161d98f03dfd68e0800000000000000
-      internalID: -1698423097677507053
+      spriteID: 2ef91dfd5907b1f80800000000000000
+      internalID: -8134784512907173918
       vertices: []
       indices: 
       edges: []
@@ -198,9 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      DALL_E_2024-11-18_19.32.42_-_A_cool__modernized_version_of_the_Flappy_Bird_avatar_redesigned_as_a_black_and_white_penguin._The_penguin_has_a_sleek_and_edgy_look__with_a_rounded_bo-removebg-preview_0: -8635910854359764492
-      DALL_E_2024-11-18_19.32.42_-_A_cool__modernized_version_of_the_Flappy_Bird_avatar_redesigned_as_a_black_and_white_penguin._The_penguin_has_a_sleek_and_edgy_look__with_a_rounded_bo-removebg-preview_1: -1698423097677507053
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

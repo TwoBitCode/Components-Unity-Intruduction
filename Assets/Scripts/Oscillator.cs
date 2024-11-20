@@ -14,12 +14,12 @@ public class Oscillator : MonoBehaviour
     [Tooltip("The length of the pendulum")]
     public float length = 2f;
 
-    [SerializeField] 
+    [SerializeField]
     [Tooltip("Gravitational constant, influences the moving speed of the pendulum")]
     public float gravity = 9.8f; // Gravitational constant, influences the moving speed of the pendulum
 
-    [SerializeField] 
-    [Tooltip("Initial angle in degrees")] 
+    [SerializeField]
+    [Tooltip("Initial angle in degrees")]
     public float angle = 2f;
 
     [SerializeField]
@@ -45,7 +45,7 @@ public class Oscillator : MonoBehaviour
     void Update()
     {
         // Pendulum dynamics
-        angularAcceleration =  - gravity / length * Mathf.Sin(angle); // Torque equation
+        angularAcceleration = -gravity / length * Mathf.Sin(angle); // Torque equation
         angularVelocity += angularAcceleration * Time.deltaTime; // update velocity -> [time] * [acceleration] = velocity
         angle += angularVelocity * Time.deltaTime;
 

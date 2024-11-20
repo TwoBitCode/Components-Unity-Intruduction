@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class HideObject : MonoBehaviour
 {
     // Tracks the visibility state of the object
-    private bool isObjectShown = true; 
+    private bool isObjectShown = true;
     private Vector3 camera_position; // The camera position
     private Vector3 original_position; // Object original position
     [SerializeField]
@@ -46,6 +46,6 @@ public class HideObject : MonoBehaviour
                 transform.position = original_position;
             }
             isObjectShown = !isObjectShown; // after each click reverse
-        }   
+        }
     }
 }
